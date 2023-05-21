@@ -3,26 +3,26 @@
 	font-family: 'Inter';
 	font-style: normal;
 	font-weight: 400;
-	font-size: 28px;
-	line-height: 150%;
+	font-size: 24px;
+	line-height: 125%;
 }
 
 .logo{
 	padding-top: 10px;
-	margin-left: 10px;
-	width: 2%;
+	margin-left: 45px;
+	width: 1.25em;
 }
 
 main{
 	display: flex;
 	margin-bottom: 50px;
-	margin-left: 80px;
+	margin-left: 125px;
 }
 
 .text-area{
 	border: none;
 	color: #0A3871;
-	margin-top: 90px;
+	margin-top: 60px;
 	text-transform: lowercase;
 }
 ::placeholder{
@@ -40,10 +40,13 @@ main{
 	border: none;
 	border-radius: 24px;
 	color: #0A3871;
-	margin-left: 98px;
-	margin-top: 20px;
+	margin-left: 85px;
+	margin-top: 45px;
 	padding-left: 20px;
-	position: fixed;
+	padding-top: 15px;
+	position: absolute;
+	height: 18em;
+	width: 13em;
 }
 
 .message:focus{
@@ -61,8 +64,8 @@ main{
 	border-radius: 24px;
 	color: white;
 	cursor: pointer;
-	height: 67px;
-	width: 328px;
+	height: 58px;
+	width: 255px;
 }
 
 .decrypt{
@@ -71,9 +74,9 @@ main{
 	border-radius: 24px;
 	color: #0A3871;
 	cursor: pointer;
-	height: 67px;
+	height: 58px;
 	margin-left: 30px;
-	width: 328px;
+	width: 255px;
 }
 
 .copy{
@@ -81,14 +84,15 @@ main{
 	border-radius: 24px;
 	color: #0A3871;
 	cursor: pointer;
-	height: 67px;
-	margin-left: 108px;
+	height: 58px;
+	margin-left: 120px;
 	margin-top: 402px;
 	position: absolute;
-	width: 336px;
+	width: 255px;
 }
 
 .info{
+	margin: 0%;
 	color: #495057;
-	font-size: 18px;
+	font-size: 14px;
 }

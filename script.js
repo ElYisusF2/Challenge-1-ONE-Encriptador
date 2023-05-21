@@ -1,7 +1,7 @@
 const textArea = document.querySelector(".text-area");
 const message = document.querySelector(".message");
 
-function encrypt(){
+function encryptMessage(){
 	const encryptedText = encrypt(textArea.value)
 	message.value = encryptedText
 	textArea.value = "";
@@ -20,7 +20,7 @@ function encrypt(encryptingString){
 	return encryptingString
 }
 
-function decrypt(){
+function decryptMessage(){
 	const decryptedText = decrypt(textArea.value)
 	message.value = decryptedText
 	textArea.value = "";
@@ -39,3 +39,11 @@ function decrypt(decryptingString){
 	return decryptingString
 }
 
+function copyMessage(){
+	var content = document.querySelector(".message");
+	
+	content.select();
+	document.execCommand('copy');
+
+	alert("Texto Copiado!");
+}

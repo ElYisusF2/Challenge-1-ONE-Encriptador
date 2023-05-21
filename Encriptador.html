@@ -3,14 +3,13 @@
 
 	<head>
 		<meta charset="UTF-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta http-equiv="X-UA-Compatible">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link rel="stylesheet" href="style.css">
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="style.css">
 		<title> Encriptador de Yisus </title>
-
 	</head>
 
 	<body>
@@ -24,23 +23,19 @@
 					<h6 class="info">Solo letras minusculas y sin acentos</h6>
 				</div>
 				<div class="buttons">
-					<button class="encrypt" onclick="encrypt()">Encriptar</button>
-					<button class="decrypt" onclick="decrypt()">Desencriptar</button>
+					<button class="encrypt" onclick="encryptMessage()">Encriptar</button>
+					<button class="decrypt" onclick="decryptMessage()">Desencriptar</button>
 				</div>
 			</section>
 
 			<section>
 				<textarea class="message" cols="30" rows="10"></textarea>
 				<div>
-					<button class="copy">Copiar</button>
+					<button class="copy" onclick="copyMessage()">Copiar</button>
 				</div>
 
 			</section>
 		</main>
-
-		<footer>
-			<p>Realizado por Jesús Fonseca, desde México</p>
-		</footer>
 	</body>
 	<script src="script.js"></script>
 </html>
